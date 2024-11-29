@@ -9,7 +9,7 @@ function setLanguage(languageCode) {
             document.getElementById('selected-lang').style.setProperty('--flag-image', 'url(res/flags/' + languageCode + '.png)' || '#000');
             document.getElementById('navbar-history').textContent = data.navbar_history || 'Null';
             document.getElementById('navbar-modelling').textContent = data.navbar_modelling || 'Null';
-            document.getElementById('source').textContent = data.source || 'Null';
+            document.getElementById('history-paragraph').innerHTML = data.history_paragraph || 'Null';
             console.log(data.source);
         })
         .catch(error => {
