@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: pascals-triangle.com
+      url: pascals-triangle-iso.github.io
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
