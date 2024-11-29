@@ -12,7 +12,6 @@ html, body {
     width: 100%;
     height: 100%;
     margin: 0;
-    overflow: hidden;
     background-color: rgb(16, 0, 32);
     color: #fff;
     min-height: 100vh;
@@ -123,13 +122,39 @@ nav {
     text-align: center;
 }
 
-.navbar ul li{
+.navbar ul li {
     display: inline-block;
     list-style: none;
     margin: 20px;
 }
 
-.navbar ul a{
+.navbar ul a {
     text-decoration: none;
     color: #fff;
+}
+
+.paragraph {
+    display: flex;
+    margin: 0;
+    padding: 10px 20px;
+}
+.paragraph p {
+    font-size: 20px;
+    color: white;
+}
+.paragraph p em {
+    font-size: 20px;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+}
+.paragraph p i {
+    font-size: 20px;
+    color: turquoise;
+    font-style: normal;
+    font-weight: bold;
+}
+.paragraph p a {
+    font-size: 16px;
+    color: lightgray;
 }
