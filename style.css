@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #333;
+
+}
+
+header {
+    background-color: turquoise;
+    height: 110px;
+    padding: 5px 5px;
+    padding-right: 30px;
+}
+
+nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.lang-menu {
+    margin-right: 32px;
+    position: relative;
+}
+
+.selected-lang {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    padding: 5px 10px;
+}
+
+.selected-lang:before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: var(--flag-image);
+    background-size: 32px 32px;
+    margin-right: 10px;
+}
+
+.lang-menu ul {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: 1px solid #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.lang-menu:hover ul {
+    display: block;
+}
+
+.lang-menu ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang-menu ul li a {
+    width: 180px;
+    display: block;
+    padding: 5px 10px;
+}
+
+.lang-menu ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.tr:before {
+    background-image: url("res/flags/tr.png");
+    background-size: 32px 32px;
+}
+.en:before {
+    background-image: url("res/flags/en.png");
+    background-size: 32px 32px;
+}
+.de:before {
+    background-image: url("res/flags/de.png");
+    background-size: 32px 32px;
+}
+.ru:before {
+    background-image: url("res/flags/ru.png");
+    background-size: 32px 32px;
+}
+
+.lang-menu ul li a:hover {
+    background-color: #f2f2f2;
+}
