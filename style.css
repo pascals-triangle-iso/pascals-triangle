@@ -1,42 +1,36 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
 
 * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    color: #333;
-
-}
-
-header {
-    background-color: turquoise;
-    height: 110px;
-    padding: 5px 5px;
-    padding-right: 30px;
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(16, 0, 32);
+    color: #fff;
+    min-height: 100vh;
+    position: relative;
 }
 
 nav {
+    background-color: rgb(8, 0, 24);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 10px;
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
-}
-
-.logo img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .lang-menu {
@@ -45,11 +39,11 @@ nav {
 }
 
 .selected-lang {
+    width: 180px;
+    height: 64px;
     cursor: pointer;
     display: flex;
     align-items: center;
-    width: 180px;
-    height: 40px;
     padding: 5px 10px;
 }
 
@@ -66,13 +60,13 @@ nav {
 .lang-menu ul {
     margin: 0;
     padding: 0;
-    background-color: white;
-    border: 1px solid #f8f8f8;
-    border-radius: 5px;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(16, 0, 32);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
     display: none;
     position: absolute;
-    top: 40px;
+    top: 64px;
     left: 0;
 }
 
@@ -88,8 +82,10 @@ nav {
 
 .lang-menu ul li a {
     width: 180px;
-    display: block;
     padding: 5px 10px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
 }
 
 .lang-menu ul li a:before {
