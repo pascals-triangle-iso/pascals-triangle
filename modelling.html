@@ -9,30 +9,41 @@
 </head>
 
 <body>
-    <header>
-        <a href='index.html'><img src="res/logo.png" class="logo"></a>
-        <div class="navbar">
-            <ul>
-                <li><a href="history.html" id="navbar-history">History</a></li>
-                <li><a href="modelling.html" id="navbar-modelling" style="color:aqua; text-decoration: underline;">Modelling</a></li>
-                <li><a href="#" id="">Lorem</a></li>
-                <li><a href="#" id="">Ipsum</a></li>
-                <li><a href="#" id="">Dolor</a></li>
-                <li><a href="#" id="">Sit</a></li>
-                <li><a href="#" id="">Amet</a></li>
-            </ul>
-        </div>
+    <main>
+        <header>
+            <nav>
+                <a href='index.html'><img src="res/logo.png" class="logo"></a>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="history.html" id="navbar-history">History</a></li>
+                        <li><a href="modelling.html" id="navbar-modelling" style="color:aqua; text-decoration: underline;">Modelling</a></li>
+                        <li><a href="#" id="">Lorem</a></li>
+                        <li><a href="#" id="">Ipsum</a></li>
+                        <li><a href="#" id="">Dolor</a></li>
+                        <li><a href="#" id="">Sit</a></li>
+                        <li><a href="#" id="">Amet</a></li>
+                    </ul>
+                </div>
+                
+                <div class="lang-menu">
+                    <div class="selected-lang" id="selected-lang">English</div>
+                    <ul>
+                        <li><a href="#" onclick="setLanguage('en')" class="en">English</a></li>
+                        <li><a href="#" onclick="setLanguage('tr')" class="tr">Türkçe</a></li>
+                        <li><a href="#" onclick="setLanguage('de')" class="de">Deutsch</a></li>
+                        <li><a href="#" onclick="setLanguage('ru')" class="ru">Русский</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </main>
 
-        <div class="lang-menu">
-            <div class="selected-lang" id="selected-lang">English</div>
-            <ul>
-                <li><a href="#" onclick="setLanguage('en')" class="en">English</a></li>
-                <li><a href="#" onclick="setLanguage('tr')" class="tr">Türkçe</a></li>
-                <li><a href="#" onclick="setLanguage('de')" class="de">Deutsch</a></li>
-                <li><a href="#" onclick="setLanguage('ru')" class="ru">Русский</a></li>
-            </ul>
-        </div>
-    </header>
+    <footer>
+        <span><img src="res/icons/mail.png">ismailyigitozmen@gmail.com</span>
+        <span><img src="res/icons/phone.png">+90 530 339 77 09</span>
+        <span><a href="https://github.com/isoyigido" target="_blank" rel="noopener noreferrer"><img src="res/icons/github.png">isoyigido</a></span>
+        <span><a href="https://www.instagram.com/ismailyigitozmen/" target="_blank" rel="noopener noreferrer"><img src="res/icons/instagram.png">ismailyigitozmen</a></span>
+    </footer>
 
     <script src="app.js"></script>
 </body>

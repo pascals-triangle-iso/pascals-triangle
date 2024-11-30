@@ -9,54 +9,61 @@
 </head>
 
 <body>
-    <header>
-        <a href='index.html'><img src="res/logo.png" class="logo"></a>
-        <div class="navbar">
-            <ul>
-                <li><a href="history.html" id="navbar-history">History</a></li>
-                <li><a href="modelling.html" id="navbar-modelling">Modelling</a></li>
-                <li><a href="#" id="">Lorem</a></li>
-                <li><a href="#" id="">Ipsum</a></li>
-                <li><a href="#" id="">Dolor</a></li>
-                <li><a href="#" id="">Sit</a></li>
-                <li><a href="#" id="">Amet</a></li>
-            </ul>
+    <main>
+        <header>
+            <nav>
+                <a href='index.html'><img src="res/logo.png" class="logo"></a>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="history.html" id="navbar-history">History</a></li>
+                        <li><a href="modelling.html" id="navbar-modelling">Modelling</a></li>
+                        <li><a href="#" id="">Lorem</a></li>
+                        <li><a href="#" id="">Ipsum</a></li>
+                        <li><a href="#" id="">Dolor</a></li>
+                        <li><a href="#" id="">Sit</a></li>
+                        <li><a href="#" id="">Amet</a></li>
+                    </ul>
+                </div>
+                
+                <div class="lang-menu">
+                    <div class="selected-lang" id="selected-lang">English</div>
+                    <ul>
+                        <li><a href="#" onclick="setLanguage('en')" class="en">English</a></li>
+                        <li><a href="#" onclick="setLanguage('tr')" class="tr">Türkçe</a></li>
+                        <li><a href="#" onclick="setLanguage('de')" class="de">Deutsch</a></li>
+                        <li><a href="#" onclick="setLanguage('ru')" class="ru">Русский</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    
+        <div class="introduction">
+            <img src="res/logo.png">
+            <div class="text">
+                Welcome to the Pascal's Triangle website!
+                <p>
+                    <br>Pascal's Triangle is more than just a pretty picture. It's a powerful tool with applications in everything from algebra to probability theory. This website is your guide to unlocking its secrets. Learn about its history, experiment with interactive models, and discover the many ways this triangle shapes our world.
+                </p>
+            </div>
         </div>
-
-        <div class="lang-menu">
-            <div class="selected-lang" id="selected-lang">English</div>
-            <ul>
-                <li><a href="#" onclick="setLanguage('en')" class="en">English</a></li>
-                <li><a href="#" onclick="setLanguage('tr')" class="tr">Türkçe</a></li>
-                <li><a href="#" onclick="setLanguage('de')" class="de">Deutsch</a></li>
-                <li><a href="#" onclick="setLanguage('ru')" class="ru">Русский</a></li>
-            </ul>
+    
+        <div class="text-container history">
+            <div class="text">
+                Explore the fascinating history of Pascal's Triangle
+                <p>
+                    <br>From its ancient origins in China, Persia, and India to its formalization by Blaise Pascal in the 17th century, this triangle has been a key mathematical discovery for centuries. Learn about the mathematicians who contributed to its development and how it has influenced modern science, from algebra to probability theory.<br><br>
+                </p>
+                <a href="history.html">Learn More</a>
+            </div>
+            <img src="res/pascal/blaise_pascal.jpg">
         </div>
-    </header>
-
-    <div class="introduction">
-        <img src="res/logo.png">
-        <div class="text">
-            Welcome to the Pascal's Triangle website!
-            <p>
-                <br>Pascal's Triangle is more than just a pretty picture. It's a powerful tool with applications in everything from algebra to probability theory. This website is your guide to unlocking its secrets. Learn about its history, experiment with interactive models, and discover the many ways this triangle shapes our world.
-            </p>
-        </div>
-    </div>
-
-    <div class="text-container history">
-        <div class="text">
-            Explore the fascinating history of Pascal's Triangle
-            <p>
-                <br>From its ancient origins in China, Persia, and India to its formalization by Blaise Pascal in the 17th century, this triangle has been a key mathematical discovery for centuries. Learn about the mathematicians who contributed to its development and how it has influenced modern science, from algebra to probability theory.<br><br>
-            </p>
-            <a href="history.html">Learn More</a>
-        </div>
-        <img src="res/pascal/blaise_pascal.jpg">
-    </div>
+    </main>
 
     <footer>
-        Hallo
+        <span><img src="res/icons/mail.png">ismailyigitozmen@gmail.com</span>
+        <span><img src="res/icons/phone.png">+90 530 339 77 09</span>
+        <span><a href="https://github.com/isoyigido" target="_blank" rel="noopener noreferrer"><img src="res/icons/github.png">isoyigido</a></span>
+        <span><a href="https://www.instagram.com/ismailyigitozmen/" target="_blank" rel="noopener noreferrer"><img src="res/icons/instagram.png">ismailyigitozmen</a></span>
     </footer>
 
     <script src="app.js"></script>
