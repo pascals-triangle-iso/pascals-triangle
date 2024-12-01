@@ -265,21 +265,32 @@ nav {
 }
 
 .text-container {
-    position: relative;
-    top: 20vh;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     border: 3px solid red;
     gap: 32px;
     padding: 32px 32px;
 }
 
-.text-container img {
+.text-container.history img {
     height: 100%;
     width: auto;
     align-self: center;
     border-radius: 32px;
+}
+
+.text-container.modelling img {
+    height: 100%;
+    width: auto;
+    align-self: center;
+    border-radius: 32px;
+}
+
+.text-container.quiz img {
+    height: 60%;
+    width: auto;
+    align-self: center;
 }
