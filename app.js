@@ -24,6 +24,10 @@ function setLanguage(languageCode) {
             if(currentPage === '/history.html') {
                 document.getElementById('history-paragraph').innerHTML = data.history_paragraph || 'Null';
             }
+
+            if(currentPage === '/temporary.html') {
+                document.querySelector('.coming-soon').innerHTML = data.coming_soon || 'Null';
+            }
         })
         .catch(error => {
             console.error('Error loading language file:', error);

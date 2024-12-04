@@ -294,3 +294,22 @@ nav {
     width: auto;
     align-self: center;
 }
+
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: calc(90vh - 200px);
+    width: 100%;
+    border: 3px solid red;
+    padding: 32px 32px;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.coming-soon p {
+    font-size: 24px;
+    font-weight: normal;
+}
