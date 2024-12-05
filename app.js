@@ -22,7 +22,15 @@ function setLanguage(languageCode) {
             }
             
             if(currentPage === '/history.html') {
-                document.getElementById('history-paragraph').innerHTML = data.history_paragraph || 'Null';
+                document.querySelector('.history-1').innerHTML = data.history_1 || 'Null';
+                document.querySelector('.history-2').innerHTML = data.history_2 || 'Null';
+                document.querySelector('.history-3').innerHTML = data.history_3 || 'Null';
+                document.querySelector('.history-4').innerHTML = data.history_4 || 'Null';
+                document.querySelector('.reference').innerHTML = data.reference_text || 'Null';
+            }
+
+            if(currentPage === '/modelling.html') {
+                document.querySelector('.guide').innerHTML = data.guide || 'Null';
             }
 
             if(currentPage === '/temporary.html') {

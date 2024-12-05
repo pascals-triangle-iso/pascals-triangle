@@ -7,6 +7,54 @@
     <link rel="stylesheet" href="style.css">
     <title>Pascal's Triangle</title>
     <link rel="icon" type="image/x-icon" href="res/logo.png">
+
+    <style>
+        .row {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .number {
+            display: flex;
+            justify-content: center;
+            margin: 0 5px;
+            padding: 5px 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 900;
+            color: rgb(16, 0, 32);
+            text-align: center;
+            align-items: center;
+            width: 80px;
+            height: 80px;
+            text-wrap: nowrap;
+            cursor: pointer;
+        }
+
+        .number:hover {
+            background-color: #0084ff;
+        }
+
+        #row-sum {
+            font-size: 36px;
+            z-index: 1000;
+        }
+
+        .guide {
+            margin: 20px;
+            font-size: 24px;
+            line-height: 1.5;
+        }
+
+        .guide i {
+            color: turquoise;
+            font-style: normal;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
@@ -34,6 +82,14 @@
                 </div>
             </nav>
         </header>
+
+        <div id="pascal" class="triangle"></div>
+        <div class="guide">
+            <br>Press <i>C</i> key to toggle number displays
+            <br>Press <i>+</i> or <i>W</i> key to increase the number of rows
+            <br>Press <i>-</i> or <i>S</i> key to decrease the number of rows
+            <br>Click on the rows to reveal the sum of elements
+        </div>
     </main>
 
     <footer>
@@ -44,6 +100,7 @@
     </footer>
 
     <script src="app.js"></script>
+    <script src="pascal.js"></script>
 </body>
 
 </html>
