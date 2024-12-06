@@ -34,6 +34,76 @@
                 </div>
             </nav>
         </header>
+
+        <section id="quiz-section">
+            <div class="quiz-title">Pascal's Triangle Quiz</div>
+            <form id="quiz-form">
+                <ol>
+                    <li class="quiz-question" id="question-1">
+                        <p class="question-text">Which Persian mathematician first described Pascal's Triangle?</p>
+                        <label><input type="radio" name="q1" value="Al-Karaji"><span class="quiz-answer">Al-Karaji</span></label><br>
+                        <label><input type="radio" name="q1" value="Omar Khayyam"><span class="quiz-answer">Omar Khayyam</span></label><br>
+                        <label><input type="radio" name="q1" value="Jia Xian"><span class="quiz-answer">Jia Xian</span></label>
+                    </li>
+                    <li class="quiz-question" id="question-2">
+                        <p class="question-text">In which century did Pascal's Triangle become known in Europe?</p>
+                        <label><input type="radio" name="q2" value="11th century"><span class="quiz-answer">11th century</span></label><br>
+                        <label><input type="radio" name="q2" value="13th century"><span class="quiz-answer">13th century</span></label><br>
+                        <label><input type="radio" name="q2" value="17th century"><span class="quiz-answer">17th century</span></label>
+                    </li>
+                    <li class="quiz-question" id="question-3">
+                        <p class="question-text">What was the title of Blaise Pascal's treatise on Pascal's Triangle?</p>
+                        <label><input type="radio" name="q3" value="Triangulum Arithmeticum"><span class="quiz-answer">Triangulum Arithmeticum</span></label><br>
+                        <label><input type="radio" name="q3" value="Traité du triangle arithmétique"><span class="quiz-answer">Traité du triangle arithmétique</span></label><br>
+                        <label><input type="radio" name="q3" value="Arithmetic of Jordanus de Nemore"><span class="quiz-answer">Arithmetic of Jordanus de Nemore</span></label>
+                    </li>
+                    <li class="quiz-question" id="question-4">
+                        <p class="question-text">What is Pascal's Triangle called in China?</p>
+                        <label><input type="radio" name="q4" value="Yang Hui's Triangle"><span class="quiz-answer">Yang Hui's Triangle</span></label><br>
+                        <label><input type="radio" name="q4" value="Tartaglia's Triangle"><span class="quiz-answer">Tartaglia's Triangle</span></label><br>
+                        <label><input type="radio" name="q4" value="Khayyam's Triangle"><span class="quiz-answer">Khayyam's Triangle</span></label>
+                    </li>
+                    <li class="quiz-question" id="question-5">
+                        <p class="question-text">Who published the triangle on the frontispiece of his book in 1527?</p>
+                        <label><input type="radio" name="q5" value="Petrus Apianus"><span class="quiz-answer">Petrus Apianus</span></label><br>
+                        <label><input type="radio" name="q5" value="Michael Stifel"><span class="quiz-answer">Michael Stifel</span></label><br>
+                        <label><input type="radio" name="q5" value="Gerolamo Cardano"><span class="quiz-answer">Gerolamo Cardano</span></label>
+                    </li>
+                    <li class="quiz-question" id="question-6">
+                        <p class="question-text">What is the sum of the numbers in the 4th row of Pascal's Triangle?</p>
+                        <label><input type="radio" name="q6" value="8"><span class="quiz-answer">8</span></label><br>
+                        <label><input type="radio" name="q6" value="16"><span class="quiz-answer">16</span></label><br>
+                        <label><input type="radio" name="q6" value="32"><span class="quiz-answer">32</span></label>
+                    </li>
+                    <li class="quiz-question" id="question-7">
+                        <p class="question-text">Which diagonal of Pascal's Triangle contains the Fibonacci sequence?</p>
+                        <label><input type="radio" name="q7" value="2nd diagonal"><span class="quiz-answer">2nd diagonal</span></label><br>
+                        <label><input type="radio" name="q7" value="3rd diagonal"><span class="quiz-answer">3rd diagonal</span></label><br>
+                        <label><input type="radio" name="q7" value="4th diagonal"><span class="quiz-answer">4th diagonal</span></label>
+                    </li>
+                    <li class="quiz-question" id="question-8">
+                        <p class="question-text">What does each row in Pascal's Triangle represent?</p>
+                        <label><input type="radio" name="q8" value="Binomial coefficients"><span class="quiz-answer">Binomial coefficients</span></label><br>
+                        <label><input type="radio" name="q8" value="Square numbers"><span class="quiz-answer">Square numbers</span></label><br>
+                        <label><input type="radio" name="q8" value="Cubic coefficients"><span class="quiz-answer">Cubic coefficients</span></label>
+                    </li>
+                    <li class="quiz-question" id="question-9">
+                        <p class="question-text">How many entries are there in the 5th row of Pascal's Triangle?</p>
+                        <label><input type="radio" name="q9" value="4"><span class="quiz-answer">4</span></label><br>
+                        <label><input type="radio" name="q9" value="5"><span class="quiz-answer">5</span></label><br>
+                        <label><input type="radio" name="q9" value="6"><span class="quiz-answer">6</span></label>
+                    </li>
+                    <li class="quiz-question" id="question-10">
+                        <p class="question-text">What is the relationship between two adjacent numbers in Pascal's Triangle?</p>
+                        <label><input type="radio" name="q10" value="They add up to the number below them"><span class="quiz-answer">They add up to the number below them</span></label><br>
+                        <label><input type="radio" name="q10" value="They are consecutive numbers"><span class="quiz-answer">They are consecutive numbers</span></label><br>
+                        <label><input type="radio" name="q10" value="They are multiples of each other"><span class="quiz-answer">They are multiples of each other</span></label>
+                    </li>
+                </ol>
+                <button type="button" onclick="submitQuiz()" id="quiz-submit-button">Submit Quiz</button>
+            </form>
+            <div id="quiz-results" style="display:none; margin-top: 20px;"></div>
+        </section>
     </main>
 
     <footer>
@@ -44,6 +114,7 @@
     </footer>
 
     <script src="app.js"></script>
+    <script src="quiz.js"></script>
 </body>
 
 </html>

@@ -33,6 +33,23 @@ function setLanguage(languageCode) {
                 document.querySelector('.guide').innerHTML = data.guide || 'Null';
             }
 
+            if (currentPage === '/quiz.html') {
+                document.querySelector('.quiz-title').textContent = data.quiz_title || 'Quiz';
+                document.querySelector('#quiz-submit-button').textContent = data.quiz_submit_button || 'Submit Quiz';
+
+                const questions = document.querySelectorAll('.quiz-question');
+                questions.forEach((question, index) => {
+                    const questionKey = `question-${index + 1}`;
+                    question.querySelector('.question-text').textContent = data[questionKey] || `Question ${index + 1}`;
+                    
+                    const answers = question.querySelectorAll('.quiz-answer');
+                    answers.forEach((answer, answerIndex) => {
+                        const answerKey = `answer-${index + 1}-${answerIndex + 1}`;
+                        answer.innerHTML = data[answerKey] || `Answer ${answerIndex + 1}`;
+                    });
+                });
+            }
+
             if(currentPage === '/temporary.html') {
                 document.querySelector('.coming-soon').innerHTML = data.coming_soon || 'Null';
             }

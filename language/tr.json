@@ -14,5 +14,59 @@
     "history_4": "<p><em>Blaise Pascal</em>'ın (1623-1662) <em>Traité du triangle arithmétique</em> (Aritmetik Üçgen Üzerine Risale) eseri, 1665 yılında ölümünden sonra yayımlanmıştır. Bu eserde Pascal, o zamanlar üçgenle ilgili bilinen birkaç sonucu toplamış ve bunları olasılık teorisi problemlerini çözmek için kullanmıştır. Daha sonra üçgen, <em>Pierre Raymond de Montmort</em> (1708) tarafından <em>table de M. Pascal pour les combinaisons</em> (Fransızca: Bay Pascal'ın kombinasyonlar tablosu) olarak adlandırılmış, <em>Abraham de Moivre</em> (1730) ise ona <em>Triangulum Arithmeticum PASCALIANUM</em> (Latince: Pascal'ın Aritmetik Üçgeni) adını vermiştir. Bu, modern Batı adlandırmasının temeli olmuş ve <i>Pascal üçgeni</i> olarak bilinir olmuştur.</p>",
     "reference_text": "<a>Kaynakça: <a href=\"https://en.wikipedia.org/wiki/Pascal%27s_triangle#History\" target=\"_blank\" rel=\"noopener noreferrer\">https://en.wikipedia.org/wiki/Pascal%27s_triangle#History</a></a>",
     "guide": "<br><i>C</i> tuşuna basarak sayı görüntüleme modunu değiştirebilirsiniz<br><i>+</i> veya <i>W</i> tuşuna basarak satır sayısını artırabilirsiniz<br><i>-</i> veya <i>S</i> tuşuna basarak satır sayısını azaltabilirsiniz<br>Satırlara tıklayarak öğelerin toplamını görüntüleyebilirsiniz",
-    "coming_soon": "Yakında: Daha Fazla Özellik ve Güncellemeler!<p><br>Deneyiminizi geliştirmek ve zenginleştirmek için sürekli olarak çalışıyoruz. Şu an birçok etkileşimli araç ve kaynağın tadını çıkarırken, heyecan verici yenilikler de geliştirme aşamasında. Bunlardan bazıları:<br><br>Yeni Görselleştirmeler – Etkileşimli bir Pascal Üçgeni modelini daha dinamik yollarla keşfedin.<br>Gelişmiş Hesaplayıcılar – Matematiksel kavramlara daha derinlemesine dalmanıza yardımcı olacak daha güçlü araçlar.<br>Kullanıcı Odaklı Özellikler – Sizi dinliyoruz! Geri bildiriminize dayalı olarak gelecek özellikler.<br>Detaylı Kılavuzlar ve Testler – Öğrenme yolculuğunuzu daha da geliştirecek yeni eğitimler ve testler.<br><br>Yakında daha fazlası gelecek, takipte kalın!"
+    "coming_soon": "Yakında: Daha Fazla Özellik ve Güncellemeler!<p><br>Deneyiminizi geliştirmek ve zenginleştirmek için sürekli olarak çalışıyoruz. Şu an birçok etkileşimli araç ve kaynağın tadını çıkarırken, heyecan verici yenilikler de geliştirme aşamasında. Bunlardan bazıları:<br><br>Yeni Görselleştirmeler – Etkileşimli bir Pascal Üçgeni modelini daha dinamik yollarla keşfedin.<br>Gelişmiş Hesaplayıcılar – Matematiksel kavramlara daha derinlemesine dalmanıza yardımcı olacak daha güçlü araçlar.<br>Kullanıcı Odaklı Özellikler – Sizi dinliyoruz! Geri bildiriminize dayalı olarak gelecek özellikler.<br>Detaylı Kılavuzlar ve Testler – Öğrenme yolculuğunuzu daha da geliştirecek yeni eğitimler ve testler.<br><br>Yakında daha fazlası gelecek, takipte kalın!",
+
+    "quiz_title": "Pascal Üçgeni Testi",
+    "quiz_submit_button": "Testi Gönder",
+    "quiz_results_heading": "Sonuçlarınız",
+    
+    "question-1": "Pascal Üçgenini ilk tanımlayan İranlı matematikçi kimdir?",
+    "answer-1-1": "Al-Karaji",
+    "answer-1-2": "Ömer Hayyam",
+    "answer-1-3": "Jia Xian",
+    
+    "question-2": "Pascal Üçgeni hangi yüzyılda Avrupa'da tanındı?",
+    "answer-2-1": "11. yüzyıl",
+    "answer-2-2": "13. yüzyıl",
+    "answer-2-3": "17. yüzyıl",
+    
+    "question-3": "Blaise Pascal’ın Pascal Üçgeni üzerine yazdığı eserin adı nedir?",
+    "answer-3-1": "Triangulum Arithmeticum",
+    "answer-3-2": "Traité du triangle arithmétique",
+    "answer-3-3": "Jordanus de Nemore'nin Aritmetiği",
+    
+    "question-4": "Pascal Üçgeni Çin’de ne olarak adlandırılır?",
+    "answer-4-1": "Yang Hui'nin Üçgeni",
+    "answer-4-2": "Tartaglia'nın Üçgeni",
+    "answer-4-3": "Hayyam'ın Üçgeni",
+    
+    "question-5": "1527 yılında kitabının kapağında Pascal Üçgeni’ni kim yayınladı?",
+    "answer-5-1": "Petrus Apianus",
+    "answer-5-2": "Michael Stifel",
+    "answer-5-3": "Gerolamo Cardano",
+    
+    "question-6": "Pascal Üçgeninin 4. satırındaki sayıların toplamı nedir?",
+    "answer-6-1": "8",
+    "answer-6-2": "16",
+    "answer-6-3": "32",
+    
+    "question-7": "Pascal Üçgeninin hangi diyagonali Fibonacci dizisini içerir?",
+    "answer-7-1": "2. diyagonal",
+    "answer-7-2": "3. diyagonal",
+    "answer-7-3": "4. diyagonal",
+    
+    "question-8": "Pascal Üçgenindeki her satır neyi temsil eder?",
+    "answer-8-1": "Binom katsayıları",
+    "answer-8-2": "Kare sayılar",
+    "answer-8-3": "Küp katsayıları",
+    
+    "question-9": "Pascal Üçgeninin 5. satırında kaç sayı vardır?",
+    "answer-9-1": "4",
+    "answer-9-2": "5",
+    "answer-9-3": "6",
+    
+    "question-10": "Pascal Üçgeninde iki bitişik sayı arasındaki ilişki nedir?",
+    "answer-10-1": "Toplamları alt satırdaki sayıyı verir",
+    "answer-10-2": "Birbirini takip eden sayılardır",
+    "answer-10-3": "Birbirinin katıdır"
 }
